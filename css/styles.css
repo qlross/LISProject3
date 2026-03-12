@@ -241,3 +241,24 @@ footer {
         padding: 10px;
     }
 }
+/* HERO BANNER */
+
+.hero {
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: white;
+}
+
+.hero-text {
+  background: rgba(0,0,0,0.4);
+  padding: 20px 30px;
+  border-radius: 6px;
+}
