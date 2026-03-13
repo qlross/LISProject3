@@ -3,7 +3,7 @@ COLOR PALETTE
 
 White #ffffff
 Slate #577590
-Pink #efcfe3
+Pink #ffe5ec
 Berry #A04668
 Black #00000
 */
@@ -35,7 +35,7 @@ h1, h2, h3 {
     margin: 10px;
 }
 h1 {
-    font-size: 7rem;
+    font-size: 5rem;
     color:#A04668;
     line-height: 1;
 }
@@ -63,7 +63,7 @@ footer a:hover {
 }
 .btn {
     background: #577590;
-    color: #efcfe3;
+    color: #ffe5ec;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.2rem;
@@ -82,8 +82,7 @@ footer a:hover {
 /* HOME
 ---------------- */
 .home {
-    background: url(../images/christina-deravedisian-UJlbhSnptTE-unsplash-resized-to-1000x755.jpeg) no-repeat;
-    background-size: cover;
+    background-color: #ffe5ec;
     display: flex;
     flex-direction: column;
 }
@@ -143,7 +142,7 @@ footer {
 /* HERO BANNER */
 
 .hero {
-  background-color: #A04668;
+  background-color: #ffe5ec;
   color: #ffffff;
   text-align: center;
   padding: 40px 20px;
