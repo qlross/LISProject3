@@ -1,7 +1,7 @@
 /*
 COLOR PALETTE
 
-Off-White #EFE9E7
+White #ffffff
 Slate #577590
 Pink #efcfe3
 Berry #A04668
@@ -143,17 +143,11 @@ footer {
 /* HERO BANNER */
 
 .hero {
-  background-image: url("../images/herobanner.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 350px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  background-color: #A04668;
+  color: #ffffff;
   text-align: center;
-  color: white;
+  padding: 80px 20px;
+}
 }
 
 /* VIDEO RESOURCES SECTION */
