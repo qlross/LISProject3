@@ -301,3 +301,27 @@ footer {
   padding: 20px 30px;
   border-radius: 6px;
 }
+
+/* GENERAL PAGE LAYOUT */
+
+.content-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+/* NAVIGATION HOVER EFFECT */
+
+nav ul li a {
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav ul li a:hover {
+  color: #8b3a62;
+  transform: translateY(-2px);
+}
