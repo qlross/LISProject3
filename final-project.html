@@ -43,73 +43,69 @@
         <h2>Project Statement</h2>
 
         <p>
-          There is power in paying attention, and this is the resounding takeaway I have
-          from reading <em>Unmasking AI: My Mission to Protect What Is Human in a World of Machines</em>
-          by Joy Buolamwini. This book is a beautifully written critique of technology and
-          a call for readers to think about how power, identity, and responsibility are
-          embedded in the systems we design and rely upon. From the title alone, we are
-          reminded that as humans who create technology, our humanity is shaped by that
-          technology. Artificial intelligence is laced with human influence and political
-          constructs.
+          Automation is increasingly embedded in everyday life, as AI systems prove their capability to do more than humans can in less time. However, many systems still require a human operator to remain in the loop to prevent harm or correct errors. For this project, I wanted to train a teachable machine with the purpose of investigating the limitations of machine learning in interpreting human behavior and highlighting the implications of this.
         </p>
 
         <p>
-          Three lessons resonated with me the most: the concept of the coded gaze and the
-          myth of neutral defaults, the role of observation in advocacy, and the collective
-          responsibility we have to fight for algorithmic justice. Early on, readers are
-          introduced to the “coded gaze,” the notion that technology often reflects the
-          perspectives, priorities, and blind spots of those who design it. Buolamwini
-          emphasizes that “defaults are not neutral,” illustrating this through her work
-          at MIT with facial recognition systems that failed to recognize her dark-skinned
-          face.
+          I created a model designed to recognize three facial expressions: surprise, joy, and disgust. These categories were chosen to represent a range of visibly distinct emotions that could be captured through facial movement. During the design process, I initially considered using a “content” or a neutral expression as the third category However, I realized that this expression lacked clear facial movement and risked being identified by the algorithm based only on the absence of motion rather than a learned recognition. Replacing “peace” with “joy” ensured that each category was identifiable for the model’s interpretation.
         </p>
 
         <p>
-          Too often, technological systems are framed as objective or purely technical.
-          Training datasets and design choices are treated as intuitive or inevitable,
-          when in reality, they privilege certain identities and experiences over others.
-          The idea of a “default user” is frequently implicitly white, male, Western, and
-          able-bodied. When these defaults go unquestioned, harm becomes systemic rather
-          than accidental. Buolamwini calls on readers to interrogate these assumptions
-          critically.
+          Throughout testing, the system repeatedly overclassified surprise and underclassified disgust. Widened eyes were a strong indicator for the machine of surprise which failed to account for the rest of my facial expression. I may exhibit wide eyes when I am fearful which highlights overlap between human emotions. The system struggled to develop sensitivity to disgust even after adjusting training images and retraining the model. This expression is a more subtle facial expression than joy or surprise, however, I ensured training images were distinct from a neutral expression and attempted to dramatize the look of disgust. This issue demonstrated insufficient readings of subtleties.
         </p>
 
         <p>
-          Knowledge empowers us, and much can be learned through observation. Rather than
-          framing advocacy as purely oppositional, Buolamwini highlights the importance of
-          paying close attention to how systems operate in practice. Her “Gender Shades”
-          project exemplifies this approach by combining data with narrative, artistic
-          expression, and lived experience, making disparities legible and concrete.
+          This experience reinforced the concept of the coded gaze, by relying on training that is only reflective of how I perceive these emotions that I selected. Machine learning systems do not interpret the world independently – the developers' perspectives are woven in their design choices especially with a lack of data diversity. A narrow scope shaping the dataset for a system that may have wide-reaching applications limits the ability of AI to function in the world similar to how a human would.
         </p>
 
-        <p>
-          This methodology bridges technical expertise and social understanding. By
-          centering empathy, conversations about accountability and responsibility become
-          more accessible and more complete. Buolamwini’s engagement with public policy,
-          including founding the Algorithmic Justice League and testifying before Congress,
-          demonstrates how observation can translate into meaningful policy action, such
-          as influencing the 2022 <em>Blueprint for an AI Bill of Rights</em>.
-        </p>
-
-        <p>
-          Finally, Buolamwini reinforces that justice must be a collective pursuit.
-          Algorithmic bias cannot be viewed as distant or irrelevant. As a member of
-          marginalized communities, indifference is not an option. Technology has often
-          mirrored historical attempts at erasure, and resisting that erasure requires
-          awareness, action, and courage.
-        </p>
-
-        <p>
-          Through her journey, Buolamwini reminds us that AI systems can be challenged,
-          reshaped, and governed more justly. <em>Unmasking AI</em> offers a vision of
-          possibility and optimism grounded in education, attentiveness, and collective
-          responsibility. Ultimately, this book has taught me to question system defaults,
-          to notice the significance of the technologies around me, and to make those
-          observations actionable. The future of AI is not predetermined—it is something
-          we are collectively authoring.
-        </p>
+        <h2>Project Scope</h2>
+        <p>Classification: Emotion Recognition</p>
+        <p>Range: 3 Emotional Expressions</p>
+        <p>Emotions: Surprise, Joy, Disgust</p>
+        <p>Image Samples: About 225 for each emotion</p>
 
       </section>
+
+      <!-- Model Training Image -->
+<section class="project-image">
+
+  <img src="images/model-training.png" alt="Teachable Machine Model Screen Capture">
+
+</section>
+
+      <!-- Project Reflection with Boulamwini's Book -->
+<section class="project-reflection">
+  
+    <h2>Project Reflection with <em>Unmasking AI</em> by Joy Boulamwini</h2>
+
+      <p>There is power in paying attention, and this is the resounding takeaway I have from reading Joy Buolamwini’s <em>Unmasking AI: My Mission to Protect What is Human in a World of Machines.</em> This book is a beautifully written critique of technology, and a call for readers to think about how power, identity, and responsibility are embedded in the systems we design and rely upon. From the title alone, we’re reminded that as humans who create technology, our humanity is shaped by that technology. Artificial intelligence is laced with human influence and political constructs. Two lessons that resonate with me the most are: the concept of the coded gaze and the myth of neutral defaults and the collective responsibility we have to  fight for algorithmic justice.</p>
+
+      <p>Early on, readers are introduced to the ‘coded gaze’ – the idea that technology often reflects the perspectives, priorities, and blind spots of those who have designed it. Hand in hand with this, Buolamwini insists that, “defaults are not neutral.” Her work at MIT with facial recognition systems that failed to recognize her dark-skinned face exemplifies this concept. Too often, technological systems are framed as objective or purely technical. Training datasets and design choices are treated as intuitive or inevitable. The reality is that we cannot make such a definitive separation between humans and our nature, and the technology that we create. Not when we’ve embedded social concepts in them that privilege certain identities and experiences over others</p>
+
+      <p>We must design with users in mind, which gives way to the idea of a “default user” that’s long been present in design. Buolamwini illuminates how that default is often implicitly white, male, Western, and able-bodied. When these defaults go unquestioned, harm becomes systemic rather than accidental and isolated. Facial recognition systems that perform well on lighter-skinned faces but poorly on darker-skinned ones are not simply flawed; they reveal whose visibility is prioritized. As readers, Buolamwini calls on us to take our default assumptions about AI and question them critically. While this was a simpler experiment, I find relevance in my model’s overclassification of surprise. This is a subjective conclusion that the system defaulted to which highlights that technology may not be more “black and white” than humans. Smaller implications here, but if this technology was used to profile suspects with criminal implications, the opportunity for great injustice presents itself.</p>
+
+      <p>My second takeaway is how Buolamwini reinforced that justice has to be a collective pursuit. I’m reminded of the adage ‘history repeats itself’ when I think about our current fight for algorithmic justice and against erasure. Every generation of marginalized communities has faced new threats to their civil liberties, and I think it is an unfortunate constant in the Black experience in America. We can never get too comfortable. We cannot view bias in AI as a distant issue, or one best left to experts. We aren’t afforded a luxury of irrelevance that leads to indifference. We are a part of a system that will work against us if it is allowed to continue to do so.</p>
+
+      <p>Technology will try to erase us, because, historically, many people and their actions have tried to erase us. As exemplified by Buolamwini’s experience having to use a whitemask, the response is to not be complicit in our erasure. Through her journey, she says, “… speaking out provided an opportunity to consider alternative pathways, including nonuse” (Buolamwini, 2023, p. 207). Her work shows us that AI systems can be challenged, reshaped, and governed in more just ways. This is what creates optimism and offers a vision of possibility in Unmasking AI. The best way to fight is to stay educated, attentive, and courageous, as Buolamwini does.</p>
+  
+      <p>Ultimately, Unmasking AI has taught me to question system defaults and design,  to notice the world and technology around me and its significance, and to make my findings actionable. Buolamwini’s words have laid a blueprint for what it looks like to be ethically grounded as part of the AI ecosystem. They remind me that the future of AI is not predetermined, but something we are collectively authoring. Whether we are conscious of this or not is up to us.</p>
+
+</section>
+      <!-- Project Demonstration Video -->
+<section class="project-video">
+
+  <h2>Project Demonstration</h2>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/eb7miE7bSmY?si=0-KKCh-F9CQI-OmJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</section>
+
+      <!-- Test My Model -->
+      <a href="https://teachablemachine.withgoogle.com/models/k2w7P12kp/" 
+      target="_blank" 
+      class="model-button">
+      Test Model
+      </a>
     </div>
   </div>
 
