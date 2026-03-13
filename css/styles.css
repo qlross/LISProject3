@@ -88,6 +88,21 @@ a:hover {
     background-color: #D9D0DE;
 }
 
+.index-photo-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.index-photo-section img {
+    width: 600px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.index-link {
+    margin-top: 15px;
+}
+
 /* Navigation */
 nav ul {
     list-style: none;
@@ -117,13 +132,6 @@ nav ul li a:hover {
 }
 
 /* Resources */
-.index-link {
-   margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
 .video-resources {
     text-align: center;
     margin-top: 40px;
