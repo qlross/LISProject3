@@ -2,12 +2,12 @@
 COLOR PALETTE
 
 White  #ffffff
-Slate  #577590
+Dark Green  #004b23
 Pink   #ffe5ec
 Berry  #A04668
 Black  #000000
 Stone  #EFE9E7
-Sage   #DCE6E3
+Light green   #b5c99a
 */
 
 /* =========================
@@ -117,7 +117,7 @@ nav ul li a:hover {
    HERO BANNER
 ========================= */
 .hero {
-    background-color: #DCE6E3;
+    background-color: #b5c99a;
     color: #000000;
     text-align: center;
     padding: 30px 20px;
