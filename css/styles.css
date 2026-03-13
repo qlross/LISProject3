@@ -14,8 +14,8 @@ Black  #000000
    GLOBAL STYLES
 ========================= */
 html {
-    box-sizing: border-box;
-    font-size: 62.5%; /* 1rem = 10px */
+   box-sizing: border-box;
+   font-size: 62.5%; /* 1rem = 10px */
 }
 
 *, *::before, *::after {
@@ -23,12 +23,16 @@ html {
 }
 
 body {
-    margin: 0;
-    background: #D9D0DE;
-    color: #000000;
-    font-family: "EB Garamond", serif;
-    font-size: 1.8rem;
-    line-height: 1.6;
+   margin: 0;
+   background: #D9D0DE;
+   color: #000000;
+   font-family: "EB Garamond", serif;
+   font-size: 1.8rem;
+   line-height: 1.6;
+
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
 }
 
 h1, h2, h3 {
@@ -74,9 +78,10 @@ a:hover {
    PAGE LAYOUT
 ========================= */
 .content-wrapper {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 40px;
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 40px 20px;
+   flex: 1;
 }
 
 .content-bg {
