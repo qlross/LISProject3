@@ -116,7 +116,14 @@ nav ul li a:hover {
     padding: 30px 20px;
 }
 
-/* Video Resources */
+/* Resources */
+.index-link {
+   margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .video-resources {
     text-align: center;
     margin-top: 40px;
