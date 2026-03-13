@@ -241,3 +241,16 @@ footer {
 .about-text {
     text-align: left;
 }
+
+/* =========================
+   FINAL PROJECT PAGE
+========================= */
+.final-project-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.final-project-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
