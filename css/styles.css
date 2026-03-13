@@ -10,9 +10,7 @@ Black  #000000
 
 */
 
-/* =========================
-   GLOBAL STYLES
-========================= */
+/* Global Styles */
 html {
    box-sizing: border-box;
    font-size: 62.5%; /* 1rem = 10px */
@@ -61,9 +59,7 @@ p {
     margin-bottom: 18px;
 }
 
-/* =========================
-   LINKS
-========================= */
+/* Links */
 a {
     color: #577590;
     text-decoration: none;
@@ -74,9 +70,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* =========================
-   PAGE LAYOUT
-========================= */
+/* Page Layout */
 .content-wrapper {
    max-width: 1000px;
    margin: 0 auto;
@@ -89,16 +83,12 @@ a:hover {
     padding: 30px;
 }
 
-/* =========================
-   HOME PAGE
-========================= */
+/* Home Page */
 .home {
     background-color: #D9D0DE;
 }
 
-/* =========================
-   NAVIGATION
-========================= */
+/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
@@ -118,9 +108,7 @@ nav ul li a:hover {
     transform: translateY(-2px);
 }
 
-/* =========================
-   HERO BANNER
-========================= */
+/* Hero Banner */
 .hero {
     background-color: #A04668;
     color: #ffffff;
@@ -128,9 +116,7 @@ nav ul li a:hover {
     padding: 30px 20px;
 }
 
-/* =========================
-   VIDEO RESOURCES
-========================= */
+/* Video Resources */
 .video-resources {
     text-align: center;
     margin-top: 40px;
@@ -169,9 +155,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* =========================
-   FOOTER
-========================= */
+/* Footer */
 footer {
     background: #A04668;
     color: #ffffff;
@@ -179,9 +163,7 @@ footer {
     padding: 10px 20px;
 }
 
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
+/* Responsive Design */
 @media screen and (max-width: 650px) {
     .content-wrapper {
         padding: 20px;
@@ -203,9 +185,7 @@ footer {
         font-size: 1.6rem;
     }
 }
-/* =========================
-   ABOUT PAGE
-========================= */
+/* About */
 .about-page {
     text-align: center;
     max-width: 800px;
@@ -222,9 +202,7 @@ footer {
     border-radius: 8px;
 }
 
-/* =========================
-   TECH HERO PAGE
-========================= */
+/* Tech Hero */
 .tech-hero-page {
     text-align: center;
     max-width: 800px;
@@ -248,9 +226,7 @@ footer {
     text-align: left;
 }
 
-/* =========================
-   FINAL PROJECT PAGE
-========================= */
+/* Final Project */
 .final-project-page {
     max-width: 800px;
     margin: 0 auto;
@@ -259,4 +235,60 @@ footer {
 .final-project-page h2 {
     text-align: center;
     margin-bottom: 20px;
+}
+
+/* Final Project Image */
+
+.project-image {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.project-image img {
+    width: 600px;
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+/* Final Project Reflection */
+.project-reflection {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.project-reflection h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-reflection p {
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+
+/* Final Project Video */
+.project-video {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.project-video iframe {
+    width: 560px;
+    height: 315px;
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+/* Final Project Model */
+.model-button {
+    background-color: #577590;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.model-button:hover {
+    background-color: #A04668;
 }
