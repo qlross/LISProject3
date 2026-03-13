@@ -2,6 +2,8 @@
 COLOR PALETTE
 
 White  #ffffff
+Lavender #D9D0DE
+Rose #BC8DA0
 Dark Green  #004b23
 Pink   #ffe5ec
 Berry  #A04668
@@ -24,7 +26,7 @@ html {
 
 body {
     margin: 0;
-    background: #EFE9E7;
+    background: #D9D0DE;
     color: #000000;
     font-family: "EB Garamond", serif;
     font-size: 1.8rem;
@@ -80,7 +82,7 @@ a:hover {
 }
 
 .content-bg {
-    background: #EFE9E7;
+    background: #D9D0DE;
     padding: 30px;
 }
 
@@ -88,7 +90,7 @@ a:hover {
    HOME PAGE
 ========================= */
 .home {
-    background-color: #EFE9E7;
+    background-color: #D9D0DE;
 }
 
 /* =========================
@@ -117,7 +119,7 @@ nav ul li a:hover {
    HERO BANNER
 ========================= */
 .hero {
-    background-color: #b5c99a;
+    background-color: #BC8DA0;
     color: #000000;
     text-align: center;
     padding: 30px 20px;
